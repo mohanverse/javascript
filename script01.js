@@ -15,5 +15,5 @@ var isLoggedCount = 34;
 //console.log(isLogged);
 
 var paymentMode;
-paymentMode = "credit card";
+paymentMode = "credits card";
 console.log(paymentMode);
