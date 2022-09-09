@@ -8,10 +8,10 @@ for (var value of iterator1){
    // console.log(value);
 } 
 
-
 //array method at()
 
 var arr = [5, 12, 8, 130, 44];
+
 
 var index = 2;
 console.log(`the ${index} index is ${arr.at(index)}`);
@@ -35,7 +35,14 @@ var array3 = array1.concat(array2);
 // var array5 = array1.concat(array4);
 //console.log(array5);
 
-//
+
+
+//foreach
+const array4 = ['a', 'b', 'c'];
+
+array4.forEach(element => console.log(element));
+
+
 
 
 
