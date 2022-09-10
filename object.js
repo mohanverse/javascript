@@ -2,7 +2,7 @@
 //TODO: OBJECT
 
 // method in object
-let useDetailCourse = {
+let userDetailCourse = {
     firstName: "Mohan",
     lastName: "Chaudhary",
     role: "Student",
@@ -11,7 +11,15 @@ let useDetailCourse = {
     buyCorse: function (courseName){
     this.courseList.push(courseName);
     },
+
+    getCourseCount: function(){
+        return `${userDetailCourse.firstName} is enrolled ${this.courseList.length} coursea`;
+    },
 }
 
-useDetailCourse.buyCorse("pro backend");
+console.log(userDetailCourse.firstName);
+userDetailCourse.buyCorse("Angular.js");
 console.log(userDetailCourse.courseList);
+userDetailCourse.buyCorse("react js");
+console.log(userDetailCourse.courseList);
+console.log(userDetailCourse.getCourseCount());
