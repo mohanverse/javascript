@@ -1,15 +1,17 @@
 //  starting with object 
 //TODO: OBJECT
 
-var user = {
+// method in object
+let useDetailCourse = {
     firstName: "Mohan",
     lastName: "Chaudhary",
     role: "Student",
-    loginCount: 32,
-    facebookSighnedIn: true,
-};
-console.log(user.firstName);
-console.log(user["lastName"]);
-user.loginCount = 50;
-console.log(user);
-console.table(user);
+    googleLogin: true,
+    courseList: [],
+    buyCorse: function (courseName){
+    this.courseList.push(courseName);
+    },
+}
+
+useDetailCourse.buyCorse("pro backend");
+console.log(userDetailCourse.courseList);

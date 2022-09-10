@@ -11,11 +11,11 @@
 // console.log(typeof cars);
 
 //push
-const fruits = ["apple", "banana", "orange"];
-fruits.push("lemon");
-console.log(fruits);
+// const fruits = ["apple", "banana", "orange"];
+// fruits.push("lemon");
+// console.log(fruits);
 
 //pop
 const fruit = ["apple", "banana", "orange"];
-fruits.push("lemon");
+fruit.pop();
 console.log(fruit);
