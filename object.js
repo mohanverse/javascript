@@ -46,4 +46,5 @@ for(let x in userDetails){
     //console.log(x);
     //console.log(userDetails[x]);
     console.log(`key is ${x} and values is ${userDetails[x]}`);
+    
 }
