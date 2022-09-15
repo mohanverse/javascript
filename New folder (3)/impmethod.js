@@ -76,10 +76,11 @@ const users = [
     {userId: 3, userNmae: "shubhash"},
     {userId: 4, userNmae: "shubham"},
     {userId: 5, userNmae: "gamly"},
-]
+];
 
-const myUser = users.find((user)=>users.userId==3);
+const myUser = users.find((user)=>user.userId == 3);
 console.log(myUser);
+
 
 
 

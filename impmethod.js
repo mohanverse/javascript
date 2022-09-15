@@ -71,7 +71,7 @@
 // const sortproduct = products.slice(0).sort((a,b)=>{return b.price-a.price});
 // console.log(sortproduct);
 
-//find method
+// find method
 // const myArray = ["Hello", "cat", "dog", "lion"]
 // function islength3(string){
 //     return string.lenght == 3;
@@ -79,3 +79,15 @@
 // }
 // const ans = myArray.find((string)=>string.length === 3);
 // console.log(ans);
+
+//find methode
+const users = [
+    {userId: 1, userNmae: "Mohan"},
+    {userId: 2, userNmae: "shubham"},
+    {userId: 3, userNmae: "shubhash"},
+    {userId: 4, userNmae: "shubham"},
+    {userId: 5, userNmae: "gamly"},
+];
+
+const myUser = users.find((user)=>user.userId === 3);
+console.log(myUser)
