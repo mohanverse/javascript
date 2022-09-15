@@ -78,7 +78,7 @@ const users = [
     {userId: 5, userNmae: "gamly"},
 ]
 
-const myUser = users.find((user)=>user.id==3);
+const myUser = users.find((user)=>users.userId==3);
 console.log(myUser);
 
 
