@@ -71,3 +71,11 @@
 // const sortproduct = products.slice(0).sort((a,b)=>{return b.price-a.price});
 // console.log(sortproduct);
 
+//find method
+const myArray = ["Hello", "cat", "dog", "lion"]
+function islength3(string){
+    return string.lenght == 3;
+
+}
+const ans = myArray.find((string)=>string.length === 3);
+console.log(ans);
