@@ -47,6 +47,29 @@
 
 // console.log(sumWithInitial);
 
+// short
+// const products = [
+//     {productId: 1, productName: "p1", price: 200},
+//     {productId: 2, productName: "p2", price: 450},
+//     {productId: 3, productName: "p3", price: 1200},
+//     {productId: 4, productName: "p4", price: 300},
+// ]
+// //lowTohight
+// const sortproduct = products.slice(0).sort((a,b)=>{return a.price-b.price});
+// console.log(sortproduct);
+
+
+// const products = [
+//     {productId: 1, productName: "p1", price: 200},
+//     {productId: 2, productName: "p2", price: 450},
+//     {productId: 3, productName: "p3", price: 1200},
+//     {productId: 4, productName: "p4", price: 300},
+// ]
+// //highrtTolow
+// const sortproduct = products.slice(0).sort((a,b)=>{return b.price-a.price});
+// console.log(sortproduct);
+
+
 
 
 
