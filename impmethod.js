@@ -72,10 +72,10 @@
 // console.log(sortproduct);
 
 //find method
-const myArray = ["Hello", "cat", "dog", "lion"]
-function islength3(string){
-    return string.lenght == 3;
+// const myArray = ["Hello", "cat", "dog", "lion"]
+// function islength3(string){
+//     return string.lenght == 3;
 
-}
-const ans = myArray.find((string)=>string.length === 3);
-console.log(ans);
+// }
+// const ans = myArray.find((string)=>string.length === 3);
+// console.log(ans);
