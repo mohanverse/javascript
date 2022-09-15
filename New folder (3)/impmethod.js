@@ -70,6 +70,17 @@
 // console.log(sortproduct);
 
 
+const users = [
+    {userId: 1, userNmae: "Mohan"},
+    {userId: 2, userNmae: "shubham"},
+    {userId: 3, userNmae: "shubhash"},
+    {userId: 4, userNmae: "shubham"},
+    {userId: 5, userNmae: "gamly"},
+]
+
+const myUser = users.find((user)=>user.id==3);
+console.log(myUser);
+
 
 
 
