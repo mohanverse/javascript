@@ -81,13 +81,19 @@
 // console.log(ans);
 
 //find methode
-const users = [
-    {userId: 1, userNmae: "Mohan"},
-    {userId: 2, userNmae: "shubham"},
-    {userId: 3, userNmae: "shubhash"},
-    {userId: 4, userNmae: "shubham"},
-    {userId: 5, userNmae: "gamly"},
-];
+// const users = [
+//     {userId: 1, userNmae: "Mohan"},
+//     {userId: 2, userNmae: "shubham"},
+//     {userId: 3, userNmae: "shubhash"},
+//     {userId: 4, userNmae: "shubham"},
+//     {userId: 5, userNmae: "gamly"},
+// ];
 
-const myUser = users.find((user)=>user.userId === 3);
-console.log(myUser)
+// const myUser = users.find((user)=>user.userId === 3);
+// console.log(myUser);
+
+//every method
+//every method ---> true/false(boolean) value foall the element inside the array is even
+const numbers = [2,4,6,8,10];
+const everynumber = numbers.every((number)=>number%2===0);
+console.log(everynumber);
