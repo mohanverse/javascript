@@ -94,6 +94,49 @@
 
 //every method
 //every method ---> true/false(boolean) value foall the element inside the array is even
-const numbers = [2,4,6,8,10];
-const everynumber = numbers.every((number)=>number%2===0);
-console.log(everynumber);
+// const numbers = [2,4,6,8,10];
+// const everynumber = numbers.every((number)=>number%2===0);
+// console.log(everynumber);
+
+// const userCart =[
+//     {userId: 1, productName: "mobile", price: 12000},
+//     {userId: 1, productName: "laptop", price: 22000},
+//     {userId: 1, productName: "tv", price: 15000},
+// ]
+// const greterprice = userCart.every((cardprice) => cardprice.price<30000);
+// console.log(greterprice);
+
+
+//sum method
+
+// const numbers = [3,5,2,9];
+// const evennum = numbers.some((number)=>number%2===0);
+// console.log(evennum);
+
+// const userCart =[
+//     {userId: 1, productName: "mobile", price: 12000},
+//     {userId: 1, productName: "laptop", price: 30000},
+//     {userId: 1, productName: "tv", price: 15000},
+// ];
+// const greaterprice = userCart.some((priceses)=>{
+//     return priceses.price>30000;
+// });
+// console.log(greaterprice);
+
+//fill method
+//values, start, end
+// const myArray = new Array(10).fill(10);
+// console.log(myArray);
+
+//splice method
+// const myArray = ['item1','item2','item3'];
+// const deletedItem = myArray.splice(1,1);
+// console.log("deleated item", deletedItem);
+// console.log(myArray);
+
+//insert
+const myArray = ['item1','item2','item3'];
+myArray.splice(2,0,'insert element');
+// console.log("inseryedItem is", insertedItem);
+console.log(myArray);
+
